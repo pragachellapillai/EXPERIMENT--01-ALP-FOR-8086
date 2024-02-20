@@ -1,6 +1,6 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
+![subration](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/699bc3d8-1d4e-4515-9f85-36442609f958)# EXPERIMENT--01-ALP-FOR-8086
+Name :pragaharshitha N.C
+Roll no :212222110033
 Date of experiment :
 
 
@@ -27,78 +27,67 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
-8.	 
+8.
+9.	 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 
-
-![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
-
-
-
-
-
-
-
-
-
-
-
-9.	Click on emulate to start emulation 
-
-
-
-
-
-
-
+10.	Click on emulate to start emulation 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 
-
-
-
-
-
-
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
 
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
-
-
-
-
-
-
 
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
+name "Addition"
+org 500h
+MOV al,10h;
+MOV bl,8h;
+ADD al,bl;
+mov [2468h],al
 
 ## Output  
- 
+ ![addition](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/477e6650-66f1-4b22-a893-58f066ca27ee)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ name "Subration"
+org 700h
+MOV ax,100h;
+MOV bx,80h;
+SUB ax,bx;
+mov [1357h],ax
 ## Output  
-## Multiplication alp 
+![subration](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/1ae61de1-b820-484d-a8df-5e08242a75bd)
+
+## Multiplication alp
+name "Multiplication"
+org 500h
+MOV ax,100h;
+MOV bx,80h;
+MUL bx;
+mov [345h],ax
+
  ## Output  
 
+![multiplication](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/48a9df36-ea0b-4bc3-8986-c73b4c8fe047)
 
 ## Division alp 
-
+name "Division"
+org 800h
+MOV ax,150h;
+MOV bx,100h;
+DIV bx;
+mov [456h],ax
 ## Output  
 
+![Division](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/e01c0de1-fd4c-4b40-8545-43d139193f38)
 
 ## Result :
  
 
-
+Thus a program on ALP for the fundamental arithmetic and logical operations is done successful.
 
 
 
