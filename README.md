@@ -42,32 +42,37 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 name "Addition"
+``` 
 org 500h
 MOV al,10h;
 MOV bl,8h;
 ADD al,bl;
 mov [2468h],al
-
+```
 ## Output  
  ![addition](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/477e6650-66f1-4b22-a893-58f066ca27ee)
 
 ## Subtraction   of 8 bit numbers  ALP 
  name "Subration"
+ ```
 org 700h
 MOV ax,100h;
 MOV bx,80h;
 SUB ax,bx;
 mov [1357h],ax
+```
 ## Output  
 ![subration](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/1ae61de1-b820-484d-a8df-5e08242a75bd)
 
 ## Multiplication alp
 name "Multiplication"
+```
 org 500h
 MOV ax,100h;
 MOV bx,80h;
 MUL bx;
 mov [345h],ax
+```
 
  ## Output  
 
@@ -75,11 +80,13 @@ mov [345h],ax
 
 ## Division alp 
 name "Division"
+```
 org 800h
 MOV ax,150h;
 MOV bx,100h;
 DIV bx;
 mov [456h],ax
+```
 ## Output  
 
 ![Division](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/e01c0de1-fd4c-4b40-8545-43d139193f38)
