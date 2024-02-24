@@ -89,7 +89,7 @@ mov [456h],ax
 ```
 ## Output  
 
-![Division](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/e01c0de1-fd4c-4b40-8545-43d139193f38)
+![Screenshot (14)](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/b24d6ad7-266c-41a7-8c4f-b08b257e6257)
 
 ## Result :
  
