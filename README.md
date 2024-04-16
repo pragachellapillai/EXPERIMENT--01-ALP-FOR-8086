@@ -1,7 +1,8 @@
-# EXPERIMENT--01-ALP-FOR-8086
 Name :pragaharshitha N.C
 
 Roll no :212222110033
+
+# EXPERIMENT-01ALPFOR8086
 
 Date of experiment :01
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
@@ -88,8 +89,59 @@ mov [456h],ax
 
 ![Screenshot (14)](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/b24d6ad7-266c-41a7-8c4f-b08b257e6257)
 
+Programs for logical operations
+
+AND
+```
+org 100h
+mov bx,1000h;
+and bx,1111h;
+mov [0040h+02],bx;
+ret
+```
+Output
+![image](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/874a2e2d-1499-4908-8011-f2854975fbc9)
+
+OR
+```
+
+org 100h
+mov ax,[0040h+06];
+mov bx,1000h;
+or ax,bx;
+mov [0040h+02],ax;
+ret
+```
+Output:
+![image](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/f45ad40c-5b66-4a19-83f2-bfe39f5e6cea)
+
+
+NOT
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+not al;
+mov [0040h+04],ax;
+ret
+```
+Output:
+![image](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/81019ccb-8fc1-4a7f-a564-158b85a01648)
+
+XOR
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+xor ax,bx;
+mov [0040h+04],ax;
+ret
+```
+Output
+
+![image](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/77b50288-2cb8-4b7b-b6a0-6a924d9d6532)
+
 ## Result :
- 
 
 Thus a program on ALP for the fundamental arithmetic and logical operations is done successful.
 
