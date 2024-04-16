@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :pragaharshitha N.C
-Roll no :212222110033
-Date of experiment :01
+#Name :pragaharshitha N.C
+#Roll no :212222110033
+#Date of experiment :01
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
