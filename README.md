@@ -1,12 +1,7 @@
-![subration](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/699bc3d8-1d4e-4515-9f85-36442609f958)# EXPERIMENT--01-ALP-FOR-8086
+# EXPERIMENT--01-ALP-FOR-8086
 Name :pragaharshitha N.C
 Roll no :212222110033
-Date of experiment :
-
-
-
-
-
+Date of experiment :01
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
@@ -53,7 +48,7 @@ mov [2468h],al
  ![addition](https://github.com/pragachellapillai/EXPERIMENT--01-ALP-FOR-8086/assets/148254952/477e6650-66f1-4b22-a893-58f066ca27ee)
 
 ## Subtraction   of 8 bit numbers  ALP 
- name "Subration"
+ name  "Subration"
  ```
 org 700h
 MOV ax,100h;
